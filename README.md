@@ -128,7 +128,7 @@ Indexes:
 
 ### Things to note
 
-You _should not_ change the contents of a migration file after it has already succesffuly run. If you do you will start seeing errors when you try to run migrations in the future:
+You _should not_ change the content of a migration file after it has successfully run. If you do you will start seeing errors when you try to run migrations in the future:
 
 ```
 Flyway Community Edition 5.2.4 by Boxfuse
@@ -138,7 +138,7 @@ ERROR: Validate failed: Migration checksum mismatch for migration version 1
 -> Resolved locally    : -162882455
 ```
 
-If you make a mistake in a previous migration, the easiest fix is to create a new migration file that adjusts the database to the state you need. 
+My suggestion? If you make a mistake in a previous migration, the easiest fix is to create a new migration file that adjusts the database to the state you need. 
 
 There are other options you can explore:
 
